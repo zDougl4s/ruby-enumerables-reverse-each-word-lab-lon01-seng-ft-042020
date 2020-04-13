@@ -6,5 +6,6 @@ def reverse_each_word(message)
     end
 
   reverseWords.join(" ")
-  binding.pry
+
 end
+  binding.pry
