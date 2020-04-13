@@ -4,6 +4,7 @@ def reverse_each_word(message)
   reverseWords = normalwords.collect do|i|
    i.reverse
     end
-    binding.pry
+
   reverseWords.join(" ")
+  binding.pry
 end
